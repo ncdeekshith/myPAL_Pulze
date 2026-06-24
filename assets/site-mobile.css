@@ -11,3 +11,18 @@
   .modal{padding:20px}.form{grid-template-columns:1fr}.field.full{grid-column:auto}.field input,.field select,.field textarea{font-size:16px;min-height:46px}
 }
 @media(max-width:430px){.arch-cells,.trustbar,.footgrid{grid-template-columns:1fr}.footgrid>div:first-child{grid-column:auto}}
+
+/* Shared enterprise pages: mobile readability and touch-comfort pass. */
+@media(max-width:900px){
+  body{font-size:16px;line-height:1.7}.brandtype strong{font-size:21px}.brandtype small{font-size:9px}
+  .pagehero{padding:80px 0 65px}.eyebrow{font-size:10px}.pagehero h1{font-size:clamp(43px,11.5vw,58px);line-height:1}.lead{font-size:17px;line-height:1.65}.btn{font-size:14px;min-height:46px}
+  .hero-card{padding:22px}.hero-card-head b{font-size:15px}.live{font-size:10px}.mini-kpi span{font-size:10px}.mini-kpi b{font-size:21px}
+  .section,.darksection{padding:76px 0}.center h2,.split h2{font-size:clamp(38px,10vw,50px);line-height:1.06}.center p,.split p{font-size:16px;line-height:1.65}
+  .card{padding:23px}.card h3{font-size:23px}.card p{font-size:15px}.pill{font-size:10px;padding:6px 9px}
+  .arch-label{font-size:12px}.arch-cell{font-size:13px;padding:13px}
+  .trustitem b{font-size:27px}.trustitem span{font-size:11px}
+  .story h2{font-size:41px!important}.quote{font-size:21px}.story p{font-size:15px}.story b{font-size:16px}
+  .pricecard h2{font-size:25px}.price{font-size:38px}.price small{font-size:12px}.pricecard p,.checks{font-size:15px}
+  .ctabox h2{font-size:40px}.footer p,.footer a{font-size:13px}.footer h4{font-size:11px}.copyright{font-size:11px}
+  .modalhead p{font-size:14px}.field label{font-size:11px}.toast{left:14px;right:14px;bottom:14px;text-align:center;font-size:13px}
+}

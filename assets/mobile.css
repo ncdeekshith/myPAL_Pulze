@@ -20,3 +20,26 @@
 @media(max-width:390px){
   .hero h1{font-size:38px}.product-scene{height:560px}.dashboard{bottom:155px}.case-card{grid-template-columns:1fr}.case-photo{height:230px;min-height:0}.journey{grid-template-columns:1fr 1fr}.journey>i{display:block}.founder-trust{grid-template-columns:1fr}
 }
+
+/* Readability pass: preserve the premium composition while making mobile effortless to scan. */
+@media(max-width:760px){
+  body{font-size:16px;line-height:1.68}
+  .brandtype strong{font-size:21px}.brandtype small{font-size:9px}
+  .eyebrow{font-size:10px;line-height:1.35}.hero h1{font-size:clamp(42px,12vw,52px);line-height:1}.hero-copy>p{font-size:17px;line-height:1.65}
+  .btn{font-size:14px}.btn.large{font-size:15px}.buyer-fit span{font-size:10px}.buyer-fit b{font-size:10px;padding:7px 10px}.hero-trust-inline{font-size:9px}.hero-trust-inline strong{font-size:13px}
+  .dashbar span:nth-child(2),.dashbar b{font-size:8px}.campaign-head small{font-size:8px}.campaign-head h3{font-size:18px}.status{font-size:8px;padding:5px 8px}
+  .funnel-card{padding:11px}.funnel-card span{font-size:8px}.funnel-card b{font-size:18px}.funnel-card small{font-size:8px}
+  .panel-title{font-size:8px}.panel-title b{font-size:9px}.ai-head b{font-size:13px}.ai-head small{font-size:9px}.ai-card li{font-size:10px}.ai-card li i{width:21px;height:21px}
+  .trust>div>p{font-size:10px}.trust-metrics b{font-size:25px}.trust-metrics span{font-size:9px}
+  .section{padding:76px 0}.section h2,.center h2{font-size:clamp(37px,10.5vw,48px);line-height:1.06}.section-lead,.center p{font-size:16px;line-height:1.65}
+  .chaos-item{padding:17px}.chaos-item b{font-size:14px}.chaos-item small{font-size:11px}.chaos-question{font-size:15px}.connected-answer p{font-size:14px}.connected-answer a{font-size:13px}
+  .step{padding:20px;min-height:335px}.stepno{font-size:11px}.step h3{font-size:21px}.step>p{font-size:14px;line-height:1.55}.step-ui{height:155px}.step-ui b{font-size:13px}.step-ui>span{font-size:10px}.audience-ui div{font-size:11px}.recommend-ui p{font-size:11px}.launch-ui b{font-size:12px}
+  .analyst-copy p{font-size:17px;line-height:1.65}.signal{font-size:9px}.insight b{font-size:16px}.insight p{font-size:13px}.insight small{font-size:10px}
+  .proof-head>a{font-size:14px}.case-sector,.verified{font-size:9px}.case-copy blockquote{font-size:21px;line-height:1.35}.person b{font-size:14px}.person span{font-size:10px}.journey small{font-size:9px}.journey p{font-size:11px;line-height:1.55}.proof-chips span{font-size:9px;padding:6px 8px}
+  .usecase-grid article{padding:23px}.usecase-grid h3{font-size:22px}.usecase-grid ul{font-size:14px;line-height:1.65}
+  .price-layout>div>p{font-size:17px}.safety span{font-size:13px;padding:13px}.price-preview>span{font-size:10px}.price-preview h3{font-size:25px}.price-preview>b{font-size:35px}.price-preview ul{font-size:14px;line-height:1.9}
+  .founder-message{font-size:18px}.founder blockquote{font-size:23px;line-height:1.5}.founder small{font-size:12px}.founder-trust span{font-size:11px;padding:12px}
+  .final-cta span{font-size:11px}.final-cta h2{font-size:43px}.final-cta p{font-size:16px}.final-cta a{font-size:13px}
+  .footer p,.footer a{font-size:13px}.footer h4{font-size:11px}.copyright{font-size:11px}
+  .modalhead p{font-size:14px}.field label{font-size:11px}.field input,.field select,.field textarea{font-size:16px}.toast{left:14px;right:14px;bottom:14px;font-size:13px;text-align:center}
+}
