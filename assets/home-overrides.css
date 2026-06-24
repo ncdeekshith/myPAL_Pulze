@@ -1,0 +1,4 @@
+.hero-trust-inline{display:flex;align-items:center;gap:8px;margin-top:17px;color:#827670;font-size:8px;text-transform:uppercase;letter-spacing:.06em}
+.hero-trust-inline strong{color:#ff9b66;font-size:12px}
+.hero-trust-inline i{width:3px;height:3px;border-radius:50%;background:#514944}
+@media(max-width:470px){.hero-trust-inline{flex-wrap:wrap}}
